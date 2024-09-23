@@ -1,4 +1,4 @@
-/* Base styles */
+/* 
 *{
     margin: 0;
     padding: 0;
@@ -15,7 +15,6 @@ header {
     justify-content: space-between;
     padding: 10px 20px;
     background-color: #333;
-    /* border: 2px solid yellow; */
     z-index: 9;
     
 }
@@ -31,7 +30,7 @@ nav a {
 }
 
 nav a:hover {
-    /* color: #f8a50b; */
+   
     color: #4fd1c5;
 }
 
@@ -41,7 +40,7 @@ input[type="checkbox"] {
 
 .logo {
     float: right;
-    /* border: 2px solid white; */
+    
 }
 
 .logo img {
@@ -54,7 +53,6 @@ input[type="checkbox"] {
 @media (min-width:769px) {
     header{
         position:fixed;
-        /* top: 100px; */
         width: 100%;
     }
     .spe a:hover{
@@ -63,7 +61,6 @@ input[type="checkbox"] {
     nav ul li {
     display: flex;
     list-style: none;
-    /* border: 2px solid white; */
     height: 30px;
     justify-content: center;
     align-items: center;
@@ -75,13 +72,12 @@ nav ul{
     height: 40px;
     width:100%;
     display: flex;
-    /* border: 2px solid red; */
     margin-right: 30px;
     border-radius: 30px;
     background-color: rgb(41 40 40);
 } 
 }
-/* Mobile styles */
+/* Mobile styles 
 @media (max-width: 768px) {
     header {
         position: fixed;
@@ -120,10 +116,6 @@ nav ul{
         z-index: 10;
         color: white;
     }
-    /* input:checked::before{
-        content: '\f00d';
-        animation: anim 1s;
-    } */
     @keyframes anim{
         0%{
             opacity: 0;
@@ -155,20 +147,18 @@ nav ul{
     header nav ul li{
         padding: 10px;
         margin: 0 10px;
-        /* border: 2px solid white; */
         list-style: none;
         border-top: 1px solid #444;
         border-bottom: 1px solid #444;
     }
     nav {
-        /* border: 2px solid red; */
         display: none;
         flex-direction: column;
         width: 100%;
     }
 
     nav a {
-        /* padding: 10px; */
+
         width: 100%;
     }
      
@@ -179,7 +169,6 @@ nav ul{
     input[type="checkbox"] {
         display: block;
         margin: 10px 0;
-        /* border: 2px solid yellow; */
         
     }
     .logo {
@@ -195,3 +184,4 @@ nav ul{
         filter: drop-shadow(2px 3px 5px orange);
     }
 }
+ */
